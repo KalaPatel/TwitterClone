@@ -1,0 +1,28 @@
+.trendTopics {
+  padding: 5px 0;
+  border-bottom: 0.3px solid #edf1f4;
+}
+.input_container {
+  display: none;
+}
+
+.trendTopics p,
+span {
+  font-size: 0.9rem;
+  color: #9ea2a5;
+}
+
+@media screen and (min-width: 768px) {
+  .trendTopics {
+    padding: 5px 0;
+    border-bottom: 0.3px solid #edf1f4;
+  }
+  .SideTrend {
+    display: block;
+  }
+  .trendTopics p,
+  span {
+    font-size: 0.9rem;
+    color: #9ea2a5;
+  }
+}

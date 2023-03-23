@@ -1,0 +1,73 @@
+.hamburger_sideMenu {
+  width: 250px;
+  top: 55px;
+  left: 1px;
+  animation-name: openMenu;
+  animation-direction: alternate;
+  transition: all 0.55s linear;
+  animation-duration: 1.5s;
+}
+
+.header_fullscreen_sideMenu {
+  margin-bottom: 10px;
+  margin: 20px 0;
+  padding: 0 5px;
+}
+
+.profile_img_container_sideMenu {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.hide {
+  opacity: 0;
+  top: 55px;
+  left: -400px;
+  width: 250px;
+  border-right: 1px solid #ccc;
+  animation-name: openMenu;
+  animation-direction: reverse;
+  transition: all 0.55s linear;
+  animation-duration: 1.5s;
+}
+
+.profile_img_container_sideMenu .profile_pic_sideMenu {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.list_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.list_Item {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+.list_Item span:hover {
+  color: #259ef3;
+}
+
+@keyframes openMenu {
+  0% {
+    left: -250px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes closeMenu {
+  0% {
+    left: -250px;
+  }
+  100% {
+    left: 0px;
+  }
+}

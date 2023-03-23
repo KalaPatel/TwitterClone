@@ -1,0 +1,50 @@
+.SideTrend {
+  position: relative;
+  width: 100%;
+}
+
+.input_container {
+  height: 60.8px;
+  display: flex;
+  align-items: center;
+}
+.input_container input {
+  outline: none;
+  color: #a5afb5;
+  border: none;
+  background-color: #e8ecef;
+  padding: 0 0 0 10px;
+  width: 100%;
+  height: 34px;
+  border-radius: 50px;
+}
+.TrendContainer {
+  background-color: #f4f8fb;
+  padding: 10px;
+  border-radius: 12px;
+}
+.TrendContainer .trendCaption {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.3px solid #edf1f4;
+}
+
+.trends_icons {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #4490c2;
+  font-weight: bold;
+}
+.TrendContainer .link {
+  cursor: pointer;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: light;
+  color: #4490c2;
+}
+
+.TrendContainer .link:hover {
+  text-decoration: underline;
+}

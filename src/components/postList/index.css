@@ -1,0 +1,68 @@
+.posts_container {
+  height: 800px;
+  overflow: auto;
+}
+.posts_container {
+  -ms-overflow-style: none;
+}
+
+.posts_container::-webkit-scrollbar {
+  display: none;
+}
+
+.posts_container_headerHide {
+  display: none;
+}
+
+.navSection {
+  display: none;
+}
+.show {
+  animation-name: navShow;
+  display: flex;
+  background-color: white;
+  position: sticky;
+  top: 0;
+
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+}
+
+.allSection,
+.mentionSection {
+  padding: 10px 0;
+  width: 50%;
+  text-align: center;
+  /* border-bottom: 1px solid #259ef3; */
+}
+
+.allSection p,
+.mentionSection p {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.allSection:hover,
+.mentionSection:hover {
+  font-weight: bold;
+  color: #259ef3;
+  border-bottom: 2px solid #259ef3;
+}
+/* .PATATE {
+  font-size: 5rem;
+  color: red;
+  background-color: blueviolet;
+} */
+@keyframes navShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .posts_container {
+    overflow: inherit;
+  }
+}

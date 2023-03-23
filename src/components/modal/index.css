@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+  .Modal {
+    position: absolute;
+    /* width: 200px; */
+    width: 35%;
+    height: 100vh;
+    top: 0;
+    right: -480px;
+    background-color: #03a9f4;
+    box-shadow: -8px -2px 8px rgba(0, 0, 0, 0.492);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: all 0.35s ease;
+  }
+  .formContainer {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.492);
+    border-radius: 8px;
+
+    /* border: 20px solid #03a9f4; */
+  }
+
+  .show {
+    right: 0;
+    display: flex;
+    transition: all 0.35s ease;
+  }
+
+  .formContainer form {
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .formContainer form input,
+  .formContainer form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.492);
+  }
+  .submitBtn {
+    background-color: white;
+    cursor: pointer;
+    color: #03a9f4;
+    font-weight: bold;
+  }
+  .cancelBtn {
+    background-color: white;
+    cursor: pointer;
+    color: tomato;
+    font-weight: bold;
+  }
+}

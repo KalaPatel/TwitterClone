@@ -1,0 +1,50 @@
+.mobile_header {
+  /* position: fixed; */
+  background-color: white;
+  top: 0;
+  display: flex;
+  padding: 10px 30px;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.larger_screen_header {
+  display: none;
+}
+
+.logo_icon {
+  font-size: 2rem;
+  color: #259ef3;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile_header {
+    display: none;
+  }
+
+  .larger_screen_header {
+    height: 100%;
+    width: 300px;
+    display: block;
+    padding: 12px 0px 12px 50px;
+    border-right: 0.8px solid #8c8e9228;
+  }
+
+  .Btn_tweet {
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: #03a9f4;
+    cursor: pointer;
+    width: 140px;
+  }
+}
+
+.Header {
+  width: 25%;
+}
