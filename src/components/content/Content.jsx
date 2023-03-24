@@ -3,7 +3,7 @@ import { IoImageOutline } from "react-icons/io5";
 import { MdOutlineGifBox } from "react-icons/md";
 import { VscGraph } from "react-icons/vsc";
 import { HiOutlineSparkles } from "react-icons/hi";
-import PostList from "../PostList";
+import PostList from "../postList";
 
 const Content = ({ refProp, submit, setPutPostData, setPutModalOn }) => {
   // console.log(submit);
